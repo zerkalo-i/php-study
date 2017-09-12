@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+</head>
+<body>
+<h1>Мой калькулятор</h1>
+<form action="15.php" method="post">
+    <table>
+        <tr>
+            <td><label>Число 1</label></td>
+            <td><input type="number" name="a"></td>
+        </tr>
+        <tr>
+            <td><input name="operator" type="radio" value="plus">+</td>
+            <td><input name="operator" type="radio" value="umnojenie">*</td>
+        </tr>
+        <tr>
+            <td><input name="operator" type="radio" value="minus">-</td>
+            <td><input name="operator" type="radio" value="delenie">/</td>
+        </tr>
+        <tr>
+            <td><label>Число 2</label></td>
+            <td><input type="number" name="b"></td>
+        </tr>
+    </table>
+    <p><input type="submit" value="Считать"></p>
+    <p><input type="reset" value="Сброс"></p>
+
+</form>
+</body>
+</html>
